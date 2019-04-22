@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SwiftAI_Example' do
+  pod 'SwiftAI', :path => '../'
+
+  target 'SwiftAI_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
