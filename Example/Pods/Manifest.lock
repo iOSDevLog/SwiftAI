@@ -4,7 +4,9 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - SwiftAI (0.1.0)
+  - Surge (2.0.0)
+  - SwiftAI (0.1.0):
+    - Surge (~> 2.0.0)
 
 DEPENDENCIES:
   - FBSnapshotTestCase (~> 2.1.4)
@@ -13,6 +15,7 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - FBSnapshotTestCase
+    - Surge
 
 EXTERNAL SOURCES:
   SwiftAI:
@@ -20,7 +23,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  SwiftAI: 175cd920a713b20151b1d2903e722f2bdcba63e6
+  Surge: 1f0286bc5f0fe4283f3455479895bf85c7ef7760
+  SwiftAI: 280b54e8ff9b2e06f238c835e543e5c511fb1e65
 
 PODFILE CHECKSUM: 27c357574a9bbb73acb95b346933cc474590abf1
 
