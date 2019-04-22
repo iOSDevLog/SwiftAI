@@ -1,0 +1,6 @@
+framework module SwiftAI {
+  umbrella header "SwiftAI-umbrella.h"
+
+  export *
+  module * { export * }
+}

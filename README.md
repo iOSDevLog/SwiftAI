@@ -1,6 +1,6 @@
 # SwiftAI
 
-[![CI Status](https://img.shields.io/travis/jiaxianhua/SwiftAI.svg?style=flat)](https://travis-ci.org/jiaxianhua/SwiftAI)
+[![CI Status](https://img.shields.io/travis/iOSDevLog/SwiftAI.svg?style=flat)](https://travis-ci.org/iOSDevLog/SwiftAI)
 [![Version](https://img.shields.io/cocoapods/v/SwiftAI.svg?style=flat)](https://cocoapods.org/pods/SwiftAI)
 [![License](https://img.shields.io/cocoapods/l/SwiftAI.svg?style=flat)](https://cocoapods.org/pods/SwiftAI)
 [![Platform](https://img.shields.io/cocoapods/p/SwiftAI.svg?style=flat)](https://cocoapods.org/pods/SwiftAI)

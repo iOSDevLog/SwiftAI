@@ -1,0 +1,22 @@
+{
+  "name": "SwiftAI",
+  "version": "0.1.0",
+  "summary": "A short description of SwiftAI.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jiaxianhua/SwiftAI",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jiaxianhua": "iosdevlog@iosdevlog.com"
+  },
+  "source": {
+    "git": "https://github.com/jiaxianhua/SwiftAI.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SwiftAI/Classes/**/*"
+}
