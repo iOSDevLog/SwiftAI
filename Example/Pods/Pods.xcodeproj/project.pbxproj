@@ -1,0 +1,1006 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09F881C22FC3564C741B6EABABBA28AF /* Convolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7313C2BFAC9810DE7449D4A693DC83 /* Convolution.swift */; };
+		0D8EAAF969A69BC390EBEA570382FF86 /* SwiftAI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D510DBA529ADBEB7632FD354221DDAD /* SwiftAI-dummy.m */; };
+		25D4152F693BC607F4ED7FB6AF4C6311 /* Pods-SwiftAI_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE99D747AA1DF89300EB02B0C74AD2C5 /* Pods-SwiftAI_Tests-dummy.m */; };
+		25ECEFE7E78D48A19EB010C52E042F25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 622AA7FAC6BDA3378F5D76150D5EBA1D /* Foundation.framework */; };
+		2D9E0D4CF9D284D649118903C050A8AC /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F957A5B580E89FC5A7961DCEE872AA0 /* Accelerate.framework */; };
+		346C5896E279FCE1752C2B161B7BFFFE /* Arithmetic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CDE2A445C9E4C66AACB7B4799E0391 /* Arithmetic.swift */; };
+		3A6F32B46FAF7CE8A65D7BEABBF60CB3 /* Pods-SwiftAI_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA19C99701B5B79477A862B7EDE3FAA4 /* Pods-SwiftAI_Example-dummy.m */; };
+		487F0AE01A1D372E7E1F60C087EDE1A3 /* Surge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D894271FA8C39391B5563801845F0EC /* Surge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		495EB6AC0AEC3DECD1AD554B1B68198F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 622AA7FAC6BDA3378F5D76150D5EBA1D /* Foundation.framework */; };
+		5F8453050DCFBEC852637B16428ED78C /* Pods-SwiftAI_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67B9E4BBEBECE75ED65D1EBFB511AC01 /* Pods-SwiftAI_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A5F532FCDF5773CADAD2715D71C13BD /* FFT.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A1341037E7D879D9A6A997B6B9EA0A /* FFT.swift */; };
+		6B0C75964FF87CC079EFF11356FA6B44 /* Hyperbolic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676688ADF61A1CCDB62A3F8EF509AD1D /* Hyperbolic.swift */; };
+		782A2094BD79B1765CDB5729F9398ADC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 622AA7FAC6BDA3378F5D76150D5EBA1D /* Foundation.framework */; };
+		826A3022F2E6EDA75823B0E337AE2B89 /* SwiftAI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B2907EA401C2B222226850475638B29B /* SwiftAI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8EED1DEC68EC5D9A0A63392CAD11D8DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 622AA7FAC6BDA3378F5D76150D5EBA1D /* Foundation.framework */; };
+		9892C2068F0D6F500F8AC86F56F13D2C /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2421CB69918ED09DAC74D21D8F0F8990 /* ReplaceMe.swift */; };
+		B1D0EA22396BCC96310E8FC04F9072D2 /* Power.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1280CA291A772CCDC3FE89D100F90A80 /* Power.swift */; };
+		B2B73B9BFCE02527DD5CB6CA99D72B30 /* Pods-SwiftAI_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84224C6822CF29CA24C516C1F5C35A78 /* Pods-SwiftAI_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9815229DAD812F90CABE1C2D7C27070 /* Surge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44D6CA4CC50A65C67946935A962D8A3C /* Surge.framework */; };
+		C163575CCD1F5F31C2169C06FFD3D79E /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707D67222C9BA12844AD8D9C6CF6752D /* Matrix.swift */; };
+		C1E5E8883957E3FB84C38AFC66DF2F7B /* Auxiliary.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9EB3597758FC458F59DA54D26117E0 /* Auxiliary.swift */; };
+		D81FA7FF2DAEA8B3977E228EB7F6A01F /* Surge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B89B5D1E2D59A60A585D5160EEF13D28 /* Surge-dummy.m */; };
+		F3B091D31143A8860F17DCF51C8F4F77 /* Exponential.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993E178AF721237A57F8BF9135F873B6 /* Exponential.swift */; };
+		FF9029A4F1B64814017032748E8EB769 /* Trigonometric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EA6C22F91482A488182265CFE4FD24 /* Trigonometric.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3382F3E3F7BF64137EDC1DEC6541463E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22D52090F826B9031A4504D117B76867;
+			remoteInfo = Surge;
+		};
+		39FA2720294005E505919665B5C1DEB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A78F449F84F7D8A18FC024290B81410;
+			remoteInfo = SwiftAI;
+		};
+		51D252600053F0953B8974917129FCB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22D52090F826B9031A4504D117B76867;
+			remoteInfo = Surge;
+		};
+		EF8CDC042361FFDD65309D118C09024C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06651F4BBD94751907D27958AA59B449;
+			remoteInfo = "Pods-SwiftAI_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		013DB9859084F80532741478CD5FBDE1 /* Pods-SwiftAI_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftAI_Tests-Info.plist"; sourceTree = "<group>"; };
+		0190A6F7CE25F743DFBBD19E888B90C2 /* Pods-SwiftAI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftAI_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		02CDE2A445C9E4C66AACB7B4799E0391 /* Arithmetic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Arithmetic.swift; path = Source/Arithmetic.swift; sourceTree = "<group>"; };
+		061E35F71A388E9BDDDBA209E87F908E /* Surge.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Surge.xcconfig; sourceTree = "<group>"; };
+		1280CA291A772CCDC3FE89D100F90A80 /* Power.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Power.swift; path = Source/Power.swift; sourceTree = "<group>"; };
+		2421CB69918ED09DAC74D21D8F0F8990 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SwiftAI/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		2999E4B7F6D6A3BBF83A4D3EDC5CF072 /* Pods-SwiftAI_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftAI_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3A3886EC0CD7855B02BBA173773964D4 /* Pods-SwiftAI_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftAI_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		44D6CA4CC50A65C67946935A962D8A3C /* Surge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Surge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53CA5A2F7DBBD4EE360DDE3B888D6F1C /* Pods_SwiftAI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftAI_Tests.framework; path = "Pods-SwiftAI_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AC10AB861FB7C6F6888FA5603E85548 /* Surge-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Surge-prefix.pch"; sourceTree = "<group>"; };
+		622AA7FAC6BDA3378F5D76150D5EBA1D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		676688ADF61A1CCDB62A3F8EF509AD1D /* Hyperbolic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Hyperbolic.swift; path = Source/Hyperbolic.swift; sourceTree = "<group>"; };
+		67B9E4BBEBECE75ED65D1EBFB511AC01 /* Pods-SwiftAI_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftAI_Tests-umbrella.h"; sourceTree = "<group>"; };
+		67DDEB0B28EFC752C61575ABAD3D2034 /* SwiftAI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftAI.modulemap; sourceTree = "<group>"; };
+		68187DB6060C4AF9CF489BE0EF4C94B1 /* Pods-SwiftAI_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftAI_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6D510DBA529ADBEB7632FD354221DDAD /* SwiftAI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftAI-dummy.m"; sourceTree = "<group>"; };
+		6EA463E42470D8FF93A77C573109913D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		707D67222C9BA12844AD8D9C6CF6752D /* Matrix.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Matrix.swift; path = Source/Matrix.swift; sourceTree = "<group>"; };
+		71D1CCD4391853729591B08C4BC1633A /* Pods-SwiftAI_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftAI_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		77C1D6C8A4E88A7C1ECFFA5E148D31E4 /* Pods-SwiftAI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftAI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		80839DD202DE21432EA25B9866046BBE /* Surge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Surge.framework; path = Surge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84224C6822CF29CA24C516C1F5C35A78 /* Pods-SwiftAI_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftAI_Example-umbrella.h"; sourceTree = "<group>"; };
+		8A10577A21AF6807913F59CB9749CC52 /* SwiftAI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftAI-prefix.pch"; sourceTree = "<group>"; };
+		8B7CEC3C68DB6B06FAD4769E1817BF82 /* Pods-SwiftAI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftAI_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		93EA6C22F91482A488182265CFE4FD24 /* Trigonometric.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Trigonometric.swift; path = Source/Trigonometric.swift; sourceTree = "<group>"; };
+		993E178AF721237A57F8BF9135F873B6 /* Exponential.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Exponential.swift; path = Source/Exponential.swift; sourceTree = "<group>"; };
+		9D894271FA8C39391B5563801845F0EC /* Surge-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Surge-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D9C7B23A20AA7BC44B9BEAE109ED83B /* Surge.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Surge.modulemap; sourceTree = "<group>"; };
+		9F957A5B580E89FC5A7961DCEE872AA0 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		A81484493B0A7B69150B0293BA88DB44 /* Pods_SwiftAI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftAI_Example.framework; path = "Pods-SwiftAI_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA9EB3597758FC458F59DA54D26117E0 /* Auxiliary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Auxiliary.swift; path = Source/Auxiliary.swift; sourceTree = "<group>"; };
+		AE99D747AA1DF89300EB02B0C74AD2C5 /* Pods-SwiftAI_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftAI_Tests-dummy.m"; sourceTree = "<group>"; };
+		B1FD7579E85C9E45E5BA67C8A9E03E21 /* Pods-SwiftAI_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftAI_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B2907EA401C2B222226850475638B29B /* SwiftAI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftAI-umbrella.h"; sourceTree = "<group>"; };
+		B5E4D2003876D13E54CC050F7098E526 /* SwiftAI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SwiftAI.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B89B5D1E2D59A60A585D5160EEF13D28 /* Surge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Surge-dummy.m"; sourceTree = "<group>"; };
+		BC1D7853C67D155D58B4000692DDF980 /* SwiftAI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftAI.xcconfig; sourceTree = "<group>"; };
+		CA19C99701B5B79477A862B7EDE3FAA4 /* Pods-SwiftAI_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftAI_Example-dummy.m"; sourceTree = "<group>"; };
+		CE0EE2B5E725B6F3744F2A507687C1C2 /* SwiftAI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftAI-Info.plist"; sourceTree = "<group>"; };
+		CE8100F7BFBD5FD3418DAF7CCA63B38C /* Pods-SwiftAI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftAI_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CF083EF9EA0C1407A85FBBA93F855131 /* Pods-SwiftAI_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftAI_Tests.modulemap"; sourceTree = "<group>"; };
+		D2D5DAEDED899A7ECFEC59929E1E75F8 /* Surge-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Surge-Info.plist"; sourceTree = "<group>"; };
+		DD7313C2BFAC9810DE7449D4A693DC83 /* Convolution.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Convolution.swift; path = Source/Convolution.swift; sourceTree = "<group>"; };
+		E1A1341037E7D879D9A6A997B6B9EA0A /* FFT.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FFT.swift; path = Source/FFT.swift; sourceTree = "<group>"; };
+		F17F13C66572C926AD61B3A22B13C4FC /* Pods-SwiftAI_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftAI_Example-Info.plist"; sourceTree = "<group>"; };
+		F1EAD5E970168849C018EB7EB1EF04CA /* Pods-SwiftAI_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftAI_Example.modulemap"; sourceTree = "<group>"; };
+		F22BFA473AAC6B1A6934F9AFD9D3B781 /* SwiftAI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftAI.framework; path = SwiftAI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCE37935A4D7DAACBA9E62EA4EE01A4E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F91CD201183D91CF38FA551B670A97F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EED1DEC68EC5D9A0A63392CAD11D8DB /* Foundation.framework in Frameworks */,
+				B9815229DAD812F90CABE1C2D7C27070 /* Surge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		372EEEAC690BC8D1EBA21F4C296A4D0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25ECEFE7E78D48A19EB010C52E042F25 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CF4E0B518B519E6C98EF5E462A2BC79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D9E0D4CF9D284D649118903C050A8AC /* Accelerate.framework in Frameworks */,
+				782A2094BD79B1765CDB5729F9398ADC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E277FD9AF5A94A23E3CE8EEC971D8F64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				495EB6AC0AEC3DECD1AD554B1B68198F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CFCFE43C6FE6F97E549E0BA93C5FC87 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F11ECD2ACAD5A102FE113B140870EC2 /* SwiftAI */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		1135FD94E5F33D0BBFC7167789DD3C5E /* Surge */ = {
+			isa = PBXGroup;
+			children = (
+				02CDE2A445C9E4C66AACB7B4799E0391 /* Arithmetic.swift */,
+				AA9EB3597758FC458F59DA54D26117E0 /* Auxiliary.swift */,
+				DD7313C2BFAC9810DE7449D4A693DC83 /* Convolution.swift */,
+				993E178AF721237A57F8BF9135F873B6 /* Exponential.swift */,
+				E1A1341037E7D879D9A6A997B6B9EA0A /* FFT.swift */,
+				676688ADF61A1CCDB62A3F8EF509AD1D /* Hyperbolic.swift */,
+				707D67222C9BA12844AD8D9C6CF6752D /* Matrix.swift */,
+				1280CA291A772CCDC3FE89D100F90A80 /* Power.swift */,
+				93EA6C22F91482A488182265CFE4FD24 /* Trigonometric.swift */,
+				8E201CE9BF19D41E4C2790DB7C4128F1 /* Support Files */,
+			);
+			name = Surge;
+			path = Surge;
+			sourceTree = "<group>";
+		};
+		1FEBC7CF860CCAFF29FE0F9179FE8587 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A81484493B0A7B69150B0293BA88DB44 /* Pods_SwiftAI_Example.framework */,
+				53CA5A2F7DBBD4EE360DDE3B888D6F1C /* Pods_SwiftAI_Tests.framework */,
+				80839DD202DE21432EA25B9866046BBE /* Surge.framework */,
+				F22BFA473AAC6B1A6934F9AFD9D3B781 /* SwiftAI.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26EA6C2DDFBFA82623565F18ABA4F794 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6EA463E42470D8FF93A77C573109913D /* LICENSE */,
+				FCE37935A4D7DAACBA9E62EA4EE01A4E /* README.md */,
+				B5E4D2003876D13E54CC050F7098E526 /* SwiftAI.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		59D67665EEBD5EFBCB88188026F23D1D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				9F957A5B580E89FC5A7961DCEE872AA0 /* Accelerate.framework */,
+				622AA7FAC6BDA3378F5D76150D5EBA1D /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5EC582F96DECC826903FE95022D15A27 /* Pods-SwiftAI_Example */ = {
+			isa = PBXGroup;
+			children = (
+				F1EAD5E970168849C018EB7EB1EF04CA /* Pods-SwiftAI_Example.modulemap */,
+				71D1CCD4391853729591B08C4BC1633A /* Pods-SwiftAI_Example-acknowledgements.markdown */,
+				3A3886EC0CD7855B02BBA173773964D4 /* Pods-SwiftAI_Example-acknowledgements.plist */,
+				CA19C99701B5B79477A862B7EDE3FAA4 /* Pods-SwiftAI_Example-dummy.m */,
+				B1FD7579E85C9E45E5BA67C8A9E03E21 /* Pods-SwiftAI_Example-frameworks.sh */,
+				F17F13C66572C926AD61B3A22B13C4FC /* Pods-SwiftAI_Example-Info.plist */,
+				84224C6822CF29CA24C516C1F5C35A78 /* Pods-SwiftAI_Example-umbrella.h */,
+				8B7CEC3C68DB6B06FAD4769E1817BF82 /* Pods-SwiftAI_Example.debug.xcconfig */,
+				CE8100F7BFBD5FD3418DAF7CCA63B38C /* Pods-SwiftAI_Example.release.xcconfig */,
+			);
+			name = "Pods-SwiftAI_Example";
+			path = "Target Support Files/Pods-SwiftAI_Example";
+			sourceTree = "<group>";
+		};
+		8E201CE9BF19D41E4C2790DB7C4128F1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D9C7B23A20AA7BC44B9BEAE109ED83B /* Surge.modulemap */,
+				061E35F71A388E9BDDDBA209E87F908E /* Surge.xcconfig */,
+				B89B5D1E2D59A60A585D5160EEF13D28 /* Surge-dummy.m */,
+				D2D5DAEDED899A7ECFEC59929E1E75F8 /* Surge-Info.plist */,
+				5AC10AB861FB7C6F6888FA5603E85548 /* Surge-prefix.pch */,
+				9D894271FA8C39391B5563801845F0EC /* Surge-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Surge";
+			sourceTree = "<group>";
+		};
+		9931101944DBBE9C4F72C4C48F7C995F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				67DDEB0B28EFC752C61575ABAD3D2034 /* SwiftAI.modulemap */,
+				BC1D7853C67D155D58B4000692DDF980 /* SwiftAI.xcconfig */,
+				6D510DBA529ADBEB7632FD354221DDAD /* SwiftAI-dummy.m */,
+				CE0EE2B5E725B6F3744F2A507687C1C2 /* SwiftAI-Info.plist */,
+				8A10577A21AF6807913F59CB9749CC52 /* SwiftAI-prefix.pch */,
+				B2907EA401C2B222226850475638B29B /* SwiftAI-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SwiftAI";
+			sourceTree = "<group>";
+		};
+		9D962C8896C9BE4DD0D4C5F3D2786118 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1135FD94E5F33D0BBFC7167789DD3C5E /* Surge */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9F11ECD2ACAD5A102FE113B140870EC2 /* SwiftAI */ = {
+			isa = PBXGroup;
+			children = (
+				2421CB69918ED09DAC74D21D8F0F8990 /* ReplaceMe.swift */,
+				26EA6C2DDFBFA82623565F18ABA4F794 /* Pod */,
+				9931101944DBBE9C4F72C4C48F7C995F /* Support Files */,
+			);
+			name = SwiftAI;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B8763064D26A0AA4FA9422AC1A54E83D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5EC582F96DECC826903FE95022D15A27 /* Pods-SwiftAI_Example */,
+				DDE851A7F0FAF7439529E68EDDD17E9D /* Pods-SwiftAI_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				0CFCFE43C6FE6F97E549E0BA93C5FC87 /* Development Pods */,
+				D414335AF56AE1D02D3305C43E02E744 /* Frameworks */,
+				9D962C8896C9BE4DD0D4C5F3D2786118 /* Pods */,
+				1FEBC7CF860CCAFF29FE0F9179FE8587 /* Products */,
+				B8763064D26A0AA4FA9422AC1A54E83D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D414335AF56AE1D02D3305C43E02E744 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44D6CA4CC50A65C67946935A962D8A3C /* Surge.framework */,
+				59D67665EEBD5EFBCB88188026F23D1D /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDE851A7F0FAF7439529E68EDDD17E9D /* Pods-SwiftAI_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CF083EF9EA0C1407A85FBBA93F855131 /* Pods-SwiftAI_Tests.modulemap */,
+				68187DB6060C4AF9CF489BE0EF4C94B1 /* Pods-SwiftAI_Tests-acknowledgements.markdown */,
+				2999E4B7F6D6A3BBF83A4D3EDC5CF072 /* Pods-SwiftAI_Tests-acknowledgements.plist */,
+				AE99D747AA1DF89300EB02B0C74AD2C5 /* Pods-SwiftAI_Tests-dummy.m */,
+				013DB9859084F80532741478CD5FBDE1 /* Pods-SwiftAI_Tests-Info.plist */,
+				67B9E4BBEBECE75ED65D1EBFB511AC01 /* Pods-SwiftAI_Tests-umbrella.h */,
+				77C1D6C8A4E88A7C1ECFFA5E148D31E4 /* Pods-SwiftAI_Tests.debug.xcconfig */,
+				0190A6F7CE25F743DFBBD19E888B90C2 /* Pods-SwiftAI_Tests.release.xcconfig */,
+			);
+			name = "Pods-SwiftAI_Tests";
+			path = "Target Support Files/Pods-SwiftAI_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8D9AF9DBA0247B6C3999EB5622CDD459 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				826A3022F2E6EDA75823B0E337AE2B89 /* SwiftAI-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A89BCCD1D54132B5A15CD19894BA4503 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F8453050DCFBEC852637B16428ED78C /* Pods-SwiftAI_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D80D44BFBF91CFAC4CB982ABF7CBB068 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				487F0AE01A1D372E7E1F60C087EDE1A3 /* Surge-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8EFB03B624A2E9882B1554CC2F7F850 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2B73B9BFCE02527DD5CB6CA99D72B30 /* Pods-SwiftAI_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		06651F4BBD94751907D27958AA59B449 /* Pods-SwiftAI_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 618DC55D95E59D626EFDFCC0D1688D7F /* Build configuration list for PBXNativeTarget "Pods-SwiftAI_Example" */;
+			buildPhases = (
+				D8EFB03B624A2E9882B1554CC2F7F850 /* Headers */,
+				ED563D1C28B2262F49CB9206CDE8CE11 /* Sources */,
+				372EEEAC690BC8D1EBA21F4C296A4D0E /* Frameworks */,
+				080685EFA94644FBA37957FEFE6CDC3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C09230CE2B1594C0A81FF43F6AADA951 /* PBXTargetDependency */,
+				B3634CFF5BCBA956DC14FEAE5F650011 /* PBXTargetDependency */,
+			);
+			name = "Pods-SwiftAI_Example";
+			productName = "Pods-SwiftAI_Example";
+			productReference = A81484493B0A7B69150B0293BA88DB44 /* Pods_SwiftAI_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		22D52090F826B9031A4504D117B76867 /* Surge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A39FAB46E3F8420017A050BA037E17E9 /* Build configuration list for PBXNativeTarget "Surge" */;
+			buildPhases = (
+				D80D44BFBF91CFAC4CB982ABF7CBB068 /* Headers */,
+				42E861B67E4A433DBC6F6DAF371B50FE /* Sources */,
+				8CF4E0B518B519E6C98EF5E462A2BC79 /* Frameworks */,
+				13D1EA4DB1EC43311401A8489FEC23CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Surge;
+			productName = Surge;
+			productReference = 80839DD202DE21432EA25B9866046BBE /* Surge.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2642615B097C645237513AC659164EBE /* Pods-SwiftAI_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1F20C78FF6EED7D0D6D98ED94A6C3A5 /* Build configuration list for PBXNativeTarget "Pods-SwiftAI_Tests" */;
+			buildPhases = (
+				A89BCCD1D54132B5A15CD19894BA4503 /* Headers */,
+				CC1C9807CF77061B63ACD26944CE6541 /* Sources */,
+				E277FD9AF5A94A23E3CE8EEC971D8F64 /* Frameworks */,
+				2B9383F34D1EECECBF6770CF699FE736 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F34C6ECA7A4D5E548D6F21E448A3E87 /* PBXTargetDependency */,
+			);
+			name = "Pods-SwiftAI_Tests";
+			productName = "Pods-SwiftAI_Tests";
+			productReference = 53CA5A2F7DBBD4EE360DDE3B888D6F1C /* Pods_SwiftAI_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8A78F449F84F7D8A18FC024290B81410 /* SwiftAI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE94B717BEC90A37913590EE6032BAB5 /* Build configuration list for PBXNativeTarget "SwiftAI" */;
+			buildPhases = (
+				8D9AF9DBA0247B6C3999EB5622CDD459 /* Headers */,
+				1446465A7C5522F88C5E5D1B51835237 /* Sources */,
+				2F91CD201183D91CF38FA551B670A97F /* Frameworks */,
+				39E358767A2BBC7ECA10B25A70789F83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				919D5EB18F6FAF682ED8D2C9EB8FB3C6 /* PBXTargetDependency */,
+			);
+			name = SwiftAI;
+			productName = SwiftAI;
+			productReference = F22BFA473AAC6B1A6934F9AFD9D3B781 /* SwiftAI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 1FEBC7CF860CCAFF29FE0F9179FE8587 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06651F4BBD94751907D27958AA59B449 /* Pods-SwiftAI_Example */,
+				2642615B097C645237513AC659164EBE /* Pods-SwiftAI_Tests */,
+				22D52090F826B9031A4504D117B76867 /* Surge */,
+				8A78F449F84F7D8A18FC024290B81410 /* SwiftAI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		080685EFA94644FBA37957FEFE6CDC3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13D1EA4DB1EC43311401A8489FEC23CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B9383F34D1EECECBF6770CF699FE736 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39E358767A2BBC7ECA10B25A70789F83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1446465A7C5522F88C5E5D1B51835237 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9892C2068F0D6F500F8AC86F56F13D2C /* ReplaceMe.swift in Sources */,
+				0D8EAAF969A69BC390EBEA570382FF86 /* SwiftAI-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42E861B67E4A433DBC6F6DAF371B50FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				346C5896E279FCE1752C2B161B7BFFFE /* Arithmetic.swift in Sources */,
+				C1E5E8883957E3FB84C38AFC66DF2F7B /* Auxiliary.swift in Sources */,
+				09F881C22FC3564C741B6EABABBA28AF /* Convolution.swift in Sources */,
+				F3B091D31143A8860F17DCF51C8F4F77 /* Exponential.swift in Sources */,
+				6A5F532FCDF5773CADAD2715D71C13BD /* FFT.swift in Sources */,
+				6B0C75964FF87CC079EFF11356FA6B44 /* Hyperbolic.swift in Sources */,
+				C163575CCD1F5F31C2169C06FFD3D79E /* Matrix.swift in Sources */,
+				B1D0EA22396BCC96310E8FC04F9072D2 /* Power.swift in Sources */,
+				D81FA7FF2DAEA8B3977E228EB7F6A01F /* Surge-dummy.m in Sources */,
+				FF9029A4F1B64814017032748E8EB769 /* Trigonometric.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC1C9807CF77061B63ACD26944CE6541 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25D4152F693BC607F4ED7FB6AF4C6311 /* Pods-SwiftAI_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED563D1C28B2262F49CB9206CDE8CE11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A6F32B46FAF7CE8A65D7BEABBF60CB3 /* Pods-SwiftAI_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		919D5EB18F6FAF682ED8D2C9EB8FB3C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Surge;
+			target = 22D52090F826B9031A4504D117B76867 /* Surge */;
+			targetProxy = 3382F3E3F7BF64137EDC1DEC6541463E /* PBXContainerItemProxy */;
+		};
+		9F34C6ECA7A4D5E548D6F21E448A3E87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SwiftAI_Example";
+			target = 06651F4BBD94751907D27958AA59B449 /* Pods-SwiftAI_Example */;
+			targetProxy = EF8CDC042361FFDD65309D118C09024C /* PBXContainerItemProxy */;
+		};
+		B3634CFF5BCBA956DC14FEAE5F650011 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftAI;
+			target = 8A78F449F84F7D8A18FC024290B81410 /* SwiftAI */;
+			targetProxy = 39FA2720294005E505919665B5C1DEB7 /* PBXContainerItemProxy */;
+		};
+		C09230CE2B1594C0A81FF43F6AADA951 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Surge;
+			target = 22D52090F826B9031A4504D117B76867 /* Surge */;
+			targetProxy = 51D252600053F0953B8974917129FCB2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04DBCAB233F1CFD3501878170D9788D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0190A6F7CE25F743DFBBD19E888B90C2 /* Pods-SwiftAI_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftAI_Tests/Pods-SwiftAI_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftAI_Tests/Pods-SwiftAI_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		07488D4657FB0A78086563621D425F8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		62000E4B07493A2700BBAD3357CF62C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B7CEC3C68DB6B06FAD4769E1817BF82 /* Pods-SwiftAI_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftAI_Example/Pods-SwiftAI_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftAI_Example/Pods-SwiftAI_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7DEEF45F7B1320A0478F529E77A84DF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE8100F7BFBD5FD3418DAF7CCA63B38C /* Pods-SwiftAI_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftAI_Example/Pods-SwiftAI_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftAI_Example/Pods-SwiftAI_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8212E9E1D77108FF3AA782EBD625AB77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC1D7853C67D155D58B4000692DDF980 /* SwiftAI.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftAI/SwiftAI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftAI/SwiftAI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftAI/SwiftAI.modulemap";
+				PRODUCT_MODULE_NAME = SwiftAI;
+				PRODUCT_NAME = SwiftAI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A029F28F0238332D13674786FCE73E67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 061E35F71A388E9BDDDBA209E87F908E /* Surge.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Surge/Surge-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Surge/Surge-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Surge/Surge.modulemap";
+				PRODUCT_MODULE_NAME = Surge;
+				PRODUCT_NAME = Surge;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A1962E6FF39BBAC201A2E5DDF99557DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		ABD166FD72F4F5D41F72C050B2A712E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77C1D6C8A4E88A7C1ECFFA5E148D31E4 /* Pods-SwiftAI_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftAI_Tests/Pods-SwiftAI_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftAI_Tests/Pods-SwiftAI_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DC780312A09E9B0F5ABF5A187F062CE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 061E35F71A388E9BDDDBA209E87F908E /* Surge.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Surge/Surge-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Surge/Surge-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Surge/Surge.modulemap";
+				PRODUCT_MODULE_NAME = Surge;
+				PRODUCT_NAME = Surge;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EC25BA0A7F5BA48AACA0D50EE9FFF35D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC1D7853C67D155D58B4000692DDF980 /* SwiftAI.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftAI/SwiftAI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftAI/SwiftAI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftAI/SwiftAI.modulemap";
+				PRODUCT_MODULE_NAME = SwiftAI;
+				PRODUCT_NAME = SwiftAI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07488D4657FB0A78086563621D425F8A /* Debug */,
+				A1962E6FF39BBAC201A2E5DDF99557DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		618DC55D95E59D626EFDFCC0D1688D7F /* Build configuration list for PBXNativeTarget "Pods-SwiftAI_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62000E4B07493A2700BBAD3357CF62C8 /* Debug */,
+				7DEEF45F7B1320A0478F529E77A84DF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A39FAB46E3F8420017A050BA037E17E9 /* Build configuration list for PBXNativeTarget "Surge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A029F28F0238332D13674786FCE73E67 /* Debug */,
+				DC780312A09E9B0F5ABF5A187F062CE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1F20C78FF6EED7D0D6D98ED94A6C3A5 /* Build configuration list for PBXNativeTarget "Pods-SwiftAI_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABD166FD72F4F5D41F72C050B2A712E5 /* Debug */,
+				04DBCAB233F1CFD3501878170D9788D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE94B717BEC90A37913590EE6032BAB5 /* Build configuration list for PBXNativeTarget "SwiftAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8212E9E1D77108FF3AA782EBD625AB77 /* Debug */,
+				EC25BA0A7F5BA48AACA0D50EE9FFF35D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

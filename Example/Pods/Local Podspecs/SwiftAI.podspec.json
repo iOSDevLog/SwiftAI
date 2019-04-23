@@ -1,0 +1,27 @@
+{
+  "name": "SwiftAI",
+  "version": "0.1.0",
+  "summary": "Machine Learning SwiftAI.",
+  "description": "Machine Learning SwiftAI.",
+  "homepage": "https://github.com/iOSDevLog/SwiftAI",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jiaxianhua": "iosdevlog@iosdevlog.com"
+  },
+  "source": {
+    "git": "https://github.com/iOSDevLog/SwiftAI.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SwiftAI/Classes/**/*",
+  "dependencies": {
+    "Surge": [
+      "~> 2.0.0"
+    ]
+  }
+}
