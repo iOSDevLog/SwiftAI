@@ -21,6 +21,7 @@
 		6B0C75964FF87CC079EFF11356FA6B44 /* Hyperbolic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676688ADF61A1CCDB62A3F8EF509AD1D /* Hyperbolic.swift */; };
 		782A2094BD79B1765CDB5729F9398ADC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 622AA7FAC6BDA3378F5D76150D5EBA1D /* Foundation.framework */; };
 		826A3022F2E6EDA75823B0E337AE2B89 /* SwiftAI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B2907EA401C2B222226850475638B29B /* SwiftAI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B3C160C226EC3210022EFF6 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3C160B226EC3210022EFF6 /* Base.swift */; };
 		8EED1DEC68EC5D9A0A63392CAD11D8DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 622AA7FAC6BDA3378F5D76150D5EBA1D /* Foundation.framework */; };
 		9892C2068F0D6F500F8AC86F56F13D2C /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2421CB69918ED09DAC74D21D8F0F8990 /* ReplaceMe.swift */; };
 		B1D0EA22396BCC96310E8FC04F9072D2 /* Power.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1280CA291A772CCDC3FE89D100F90A80 /* Power.swift */; };
@@ -74,7 +75,7 @@
 		2999E4B7F6D6A3BBF83A4D3EDC5CF072 /* Pods-SwiftAI_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftAI_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		3A3886EC0CD7855B02BBA173773964D4 /* Pods-SwiftAI_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftAI_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		44D6CA4CC50A65C67946935A962D8A3C /* Surge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Surge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		53CA5A2F7DBBD4EE360DDE3B888D6F1C /* Pods_SwiftAI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftAI_Tests.framework; path = "Pods-SwiftAI_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53CA5A2F7DBBD4EE360DDE3B888D6F1C /* Pods_SwiftAI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftAI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AC10AB861FB7C6F6888FA5603E85548 /* Surge-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Surge-prefix.pch"; sourceTree = "<group>"; };
 		622AA7FAC6BDA3378F5D76150D5EBA1D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		676688ADF61A1CCDB62A3F8EF509AD1D /* Hyperbolic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Hyperbolic.swift; path = Source/Hyperbolic.swift; sourceTree = "<group>"; };
@@ -82,26 +83,27 @@
 		67DDEB0B28EFC752C61575ABAD3D2034 /* SwiftAI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftAI.modulemap; sourceTree = "<group>"; };
 		68187DB6060C4AF9CF489BE0EF4C94B1 /* Pods-SwiftAI_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftAI_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6D510DBA529ADBEB7632FD354221DDAD /* SwiftAI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftAI-dummy.m"; sourceTree = "<group>"; };
-		6EA463E42470D8FF93A77C573109913D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6EA463E42470D8FF93A77C573109913D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		707D67222C9BA12844AD8D9C6CF6752D /* Matrix.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Matrix.swift; path = Source/Matrix.swift; sourceTree = "<group>"; };
 		71D1CCD4391853729591B08C4BC1633A /* Pods-SwiftAI_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftAI_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		77C1D6C8A4E88A7C1ECFFA5E148D31E4 /* Pods-SwiftAI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftAI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		80839DD202DE21432EA25B9866046BBE /* Surge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Surge.framework; path = Surge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80839DD202DE21432EA25B9866046BBE /* Surge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Surge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84224C6822CF29CA24C516C1F5C35A78 /* Pods-SwiftAI_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftAI_Example-umbrella.h"; sourceTree = "<group>"; };
 		8A10577A21AF6807913F59CB9749CC52 /* SwiftAI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftAI-prefix.pch"; sourceTree = "<group>"; };
+		8B3C160B226EC3210022EFF6 /* Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Base.swift; path = SwiftAI/Classes/Base.swift; sourceTree = "<group>"; };
 		8B7CEC3C68DB6B06FAD4769E1817BF82 /* Pods-SwiftAI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftAI_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		93EA6C22F91482A488182265CFE4FD24 /* Trigonometric.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Trigonometric.swift; path = Source/Trigonometric.swift; sourceTree = "<group>"; };
 		993E178AF721237A57F8BF9135F873B6 /* Exponential.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Exponential.swift; path = Source/Exponential.swift; sourceTree = "<group>"; };
 		9D894271FA8C39391B5563801845F0EC /* Surge-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Surge-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D9C7B23A20AA7BC44B9BEAE109ED83B /* Surge.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Surge.modulemap; sourceTree = "<group>"; };
 		9F957A5B580E89FC5A7961DCEE872AA0 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
-		A81484493B0A7B69150B0293BA88DB44 /* Pods_SwiftAI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftAI_Example.framework; path = "Pods-SwiftAI_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A81484493B0A7B69150B0293BA88DB44 /* Pods_SwiftAI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftAI_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA9EB3597758FC458F59DA54D26117E0 /* Auxiliary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Auxiliary.swift; path = Source/Auxiliary.swift; sourceTree = "<group>"; };
 		AE99D747AA1DF89300EB02B0C74AD2C5 /* Pods-SwiftAI_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftAI_Tests-dummy.m"; sourceTree = "<group>"; };
 		B1FD7579E85C9E45E5BA67C8A9E03E21 /* Pods-SwiftAI_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftAI_Example-frameworks.sh"; sourceTree = "<group>"; };
 		B2907EA401C2B222226850475638B29B /* SwiftAI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftAI-umbrella.h"; sourceTree = "<group>"; };
-		B5E4D2003876D13E54CC050F7098E526 /* SwiftAI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SwiftAI.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B5E4D2003876D13E54CC050F7098E526 /* SwiftAI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SwiftAI.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B89B5D1E2D59A60A585D5160EEF13D28 /* Surge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Surge-dummy.m"; sourceTree = "<group>"; };
 		BC1D7853C67D155D58B4000692DDF980 /* SwiftAI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftAI.xcconfig; sourceTree = "<group>"; };
 		CA19C99701B5B79477A862B7EDE3FAA4 /* Pods-SwiftAI_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftAI_Example-dummy.m"; sourceTree = "<group>"; };
@@ -113,8 +115,8 @@
 		E1A1341037E7D879D9A6A997B6B9EA0A /* FFT.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FFT.swift; path = Source/FFT.swift; sourceTree = "<group>"; };
 		F17F13C66572C926AD61B3A22B13C4FC /* Pods-SwiftAI_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftAI_Example-Info.plist"; sourceTree = "<group>"; };
 		F1EAD5E970168849C018EB7EB1EF04CA /* Pods-SwiftAI_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftAI_Example.modulemap"; sourceTree = "<group>"; };
-		F22BFA473AAC6B1A6934F9AFD9D3B781 /* SwiftAI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftAI.framework; path = SwiftAI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FCE37935A4D7DAACBA9E62EA4EE01A4E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F22BFA473AAC6B1A6934F9AFD9D3B781 /* SwiftAI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftAI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCE37935A4D7DAACBA9E62EA4EE01A4E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,7 +179,6 @@
 				93EA6C22F91482A488182265CFE4FD24 /* Trigonometric.swift */,
 				8E201CE9BF19D41E4C2790DB7C4128F1 /* Support Files */,
 			);
-			name = Surge;
 			path = Surge;
 			sourceTree = "<group>";
 		};
@@ -267,6 +268,7 @@
 		9F11ECD2ACAD5A102FE113B140870EC2 /* SwiftAI */ = {
 			isa = PBXGroup;
 			children = (
+				8B3C160B226EC3210022EFF6 /* Base.swift */,
 				2421CB69918ED09DAC74D21D8F0F8990 /* ReplaceMe.swift */,
 				26EA6C2DDFBFA82623565F18ABA4F794 /* Pod */,
 				9931101944DBBE9C4F72C4C48F7C995F /* Support Files */,
@@ -449,6 +451,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
@@ -500,6 +503,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B3C160C226EC3210022EFF6 /* Base.swift in Sources */,
 				9892C2068F0D6F500F8AC86F56F13D2C /* ReplaceMe.swift in Sources */,
 				0D8EAAF969A69BC390EBEA570382FF86 /* SwiftAI-dummy.m in Sources */,
 			);
@@ -848,8 +852,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
