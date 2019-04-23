@@ -97,7 +97,7 @@
 		8B7CEC3C68DB6B06FAD4769E1817BF82 /* Pods-SwiftAI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftAI_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		8BA3DF38226EEDCE005057AF /* KNN.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = KNN.swift; path = SwiftAI/Classes/KNN.swift; sourceTree = "<group>"; };
 		8BA3DF3C226EF951005057AF /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = SwiftAI/Classes/Notifications.swift; sourceTree = "<group>"; };
-		8BA3DF3E226EFD48005057AF /* Distance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Distance.swift; sourceTree = "<group>"; };
+		8BA3DF3E226EFD48005057AF /* Distance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Distance.swift; path = SwiftAI/Classes/Distance.swift; sourceTree = "<group>"; };
 		93EA6C22F91482A488182265CFE4FD24 /* Trigonometric.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Trigonometric.swift; path = Source/Trigonometric.swift; sourceTree = "<group>"; };
 		993E178AF721237A57F8BF9135F873B6 /* Exponential.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Exponential.swift; path = Source/Exponential.swift; sourceTree = "<group>"; };
 		9988C255CA9F5B513592965D7850FEF3 /* SwiftAI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SwiftAI.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };

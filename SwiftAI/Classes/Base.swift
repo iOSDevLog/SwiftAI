@@ -15,7 +15,7 @@ import Accelerate
 /// All estimators should specify all the parameters that can be set
 /// at the class level in their `init` as explicit keyword
 public class BaseEstimator: NSObject {
-    var X: Matrix<Double>! = Matrix([])
+    var X: Matrix<Double>! = Matrix(rows: 1, columns: 1, repeatedValue: 0)
     var y: [Double]! = []
     var y_required = true
     var fit_required = true
