@@ -13,8 +13,9 @@
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		607FACEC1AFB9204008FA782 /* KNNTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* KNNTests.swift */; };
 		8B3C160E226EC3960022EFF6 /* BaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3C160D226EC3960022EFF6 /* BaseTests.swift */; };
+		8BA3DF42226F0A14005057AF /* DistanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA3DF41226F0A14005057AF /* DistanceTests.swift */; };
 		FDCE54F440B4599341637EE6 /* Pods_SwiftAI_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46331FC564FDDC263DE30380 /* Pods_SwiftAI_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,11 +43,12 @@
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* SwiftAI_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftAI_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		607FACEB1AFB9204008FA782 /* KNNTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KNNTests.swift; sourceTree = "<group>"; };
 		63E7AEB42BB8D2E51EC57261 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		74E3B73113737F41092E890A /* Pods_SwiftAI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftAI_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		83C43E5349DD72DAE722ABB2 /* Pods-SwiftAI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftAI_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftAI_Tests/Pods-SwiftAI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8B3C160D226EC3960022EFF6 /* BaseTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTests.swift; sourceTree = "<group>"; };
+		8BA3DF41226F0A14005057AF /* DistanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceTests.swift; sourceTree = "<group>"; };
 		B0437B990A70FA52C1A271ED /* Pods-SwiftAI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftAI_Tests.release.xcconfig"; path = "Target Support Files/Pods-SwiftAI_Tests/Pods-SwiftAI_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DF0903128B4FD39A49AFEBE8 /* SwiftAI.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SwiftAI.podspec; path = ../SwiftAI.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
@@ -128,9 +130,10 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
 				8B3C160D226EC3960022EFF6 /* BaseTests.swift */,
+				607FACEB1AFB9204008FA782 /* KNNTests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
+				8BA3DF41226F0A14005057AF /* DistanceTests.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -226,10 +229,9 @@
 			};
 			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "SwiftAI" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 				Base,
 			);
@@ -349,7 +351,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				607FACEC1AFB9204008FA782 /* KNNTests.swift in Sources */,
+				8BA3DF42226F0A14005057AF /* DistanceTests.swift in Sources */,
 				8B3C160E226EC3960022EFF6 /* BaseTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

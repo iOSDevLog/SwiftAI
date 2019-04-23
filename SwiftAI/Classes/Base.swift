@@ -7,13 +7,19 @@
 //
 
 import Foundation
-
+import Surge
+import Accelerate
 
 /// Base class for all estimators
 ///
 /// All estimators should specify all the parameters that can be set
 /// at the class level in their `init` as explicit keyword
-public class BaseEstimator: NSObject, Codable {
+public class BaseEstimator: NSObject {
+    var X: Matrix<Double>! = Matrix([])
+    var y: [Double]! = []
+    var y_required = true
+    var fit_required = true
+
     /// Get parameters for this estimator.
     ///
     /// - Parameter deep: boolean, optional
@@ -32,7 +38,7 @@ public class BaseEstimator: NSObject, Codable {
 
         return result
     }
-    
+
     /// Set the parameters of this estimator.
     ///
     /// - Parameter params: The latter have parameters of the form
@@ -40,6 +46,46 @@ public class BaseEstimator: NSObject, Codable {
     /// component of a nested object.
     func setParams(params: [String: Any]) {
         setValuesForKeys(params)
+    }
+
+    /// Ensure inputs to an estimator are in the expected format.
+    ///
+    /// Ensures X and y are stored as numpy ndarrays by converting from an
+    /// array-like object if necessary. Enables estimators to define whether
+    /// they require a set of y target values or not with y_required, e.g.
+    /// kmeans clustering requires no target labels and is fit against only X.
+    ///
+    /// - Parameters:
+    ///   - X: Feature dataset.
+    ///   - y: Target values. By default is required, but if y_required = false then may be omitted.
+    func _setup_input(X: [[Double]], y: [Double]! = nil) {
+        self.X = Matrix(X)
+
+        assert(X.count > 0, "Number of features must be > 0")
+
+        if self.y_required {
+            assert(y != nil, "Missed required argument y")
+            assert(y.count != 0, "Number of targets must be > 0")
+            self.y = y
+        }
+    }
+
+    func _predict(XTest: Matrix<Double>) -> [Double] {
+        fatalError("NotImplementedError")
+    }
+
+    public func fit(X: [[Double]], y: [Double]? = nil) {
+        _setup_input(X: X, y: y)
+    }
+
+    public func predict(XTest: [[Double]]! = nil) -> [Double] {
+        let predictX = Matrix(XTest)
+
+        if (self.X != nil) || (!self.fit_required) {
+            return self._predict(XTest: predictX)
+        } else {
+            fatalError("You must call `fit` before `predict`")
+        }
     }
 }
 

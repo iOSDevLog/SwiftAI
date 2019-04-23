@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		09F881C22FC3564C741B6EABABBA28AF /* Convolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7313C2BFAC9810DE7449D4A693DC83 /* Convolution.swift */; };
-		0D8EAAF969A69BC390EBEA570382FF86 /* SwiftAI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D510DBA529ADBEB7632FD354221DDAD /* SwiftAI-dummy.m */; };
 		25D4152F693BC607F4ED7FB6AF4C6311 /* Pods-SwiftAI_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE99D747AA1DF89300EB02B0C74AD2C5 /* Pods-SwiftAI_Tests-dummy.m */; };
 		25ECEFE7E78D48A19EB010C52E042F25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 622AA7FAC6BDA3378F5D76150D5EBA1D /* Foundation.framework */; };
 		2D9E0D4CF9D284D649118903C050A8AC /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F957A5B580E89FC5A7961DCEE872AA0 /* Accelerate.framework */; };
@@ -20,12 +19,15 @@
 		6A5F532FCDF5773CADAD2715D71C13BD /* FFT.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A1341037E7D879D9A6A997B6B9EA0A /* FFT.swift */; };
 		6B0C75964FF87CC079EFF11356FA6B44 /* Hyperbolic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676688ADF61A1CCDB62A3F8EF509AD1D /* Hyperbolic.swift */; };
 		782A2094BD79B1765CDB5729F9398ADC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 622AA7FAC6BDA3378F5D76150D5EBA1D /* Foundation.framework */; };
-		826A3022F2E6EDA75823B0E337AE2B89 /* SwiftAI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B2907EA401C2B222226850475638B29B /* SwiftAI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8B3C160C226EC3210022EFF6 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3C160B226EC3210022EFF6 /* Base.swift */; };
+		826A3022F2E6EDA75823B0E337AE2B89 /* SwiftAI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 432AF12691CF9E96601086E17A08F37B /* SwiftAI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		877848B986F549F56DA5A5267930E3A7 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CD67F6988C3A25FAAD9F8E4EFCBBB1 /* Base.swift */; };
+		8BA3DF3A226EEE41005057AF /* KNN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA3DF38226EEDCE005057AF /* KNN.swift */; };
+		8BA3DF3D226EF951005057AF /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA3DF3C226EF951005057AF /* Notifications.swift */; };
+		8BA3DF40226EFFE9005057AF /* Distance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA3DF3E226EFD48005057AF /* Distance.swift */; };
 		8EED1DEC68EC5D9A0A63392CAD11D8DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 622AA7FAC6BDA3378F5D76150D5EBA1D /* Foundation.framework */; };
-		9892C2068F0D6F500F8AC86F56F13D2C /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2421CB69918ED09DAC74D21D8F0F8990 /* ReplaceMe.swift */; };
 		B1D0EA22396BCC96310E8FC04F9072D2 /* Power.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1280CA291A772CCDC3FE89D100F90A80 /* Power.swift */; };
 		B2B73B9BFCE02527DD5CB6CA99D72B30 /* Pods-SwiftAI_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84224C6822CF29CA24C516C1F5C35A78 /* Pods-SwiftAI_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7D270AD1AA32303855F8909775E1601 /* SwiftAI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F418157E9D2AB80ADFC4EF995D9FDFE /* SwiftAI-dummy.m */; };
 		B9815229DAD812F90CABE1C2D7C27070 /* Surge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44D6CA4CC50A65C67946935A962D8A3C /* Surge.framework */; };
 		C163575CCD1F5F31C2169C06FFD3D79E /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707D67222C9BA12844AD8D9C6CF6752D /* Matrix.swift */; };
 		C1E5E8883957E3FB84C38AFC66DF2F7B /* Auxiliary.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9EB3597758FC458F59DA54D26117E0 /* Auxiliary.swift */; };
@@ -69,31 +71,36 @@
 		013DB9859084F80532741478CD5FBDE1 /* Pods-SwiftAI_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftAI_Tests-Info.plist"; sourceTree = "<group>"; };
 		0190A6F7CE25F743DFBBD19E888B90C2 /* Pods-SwiftAI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftAI_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		02CDE2A445C9E4C66AACB7B4799E0391 /* Arithmetic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Arithmetic.swift; path = Source/Arithmetic.swift; sourceTree = "<group>"; };
+		03249FFF6B93343C47C25B0117430BA6 /* SwiftAI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftAI.modulemap; sourceTree = "<group>"; };
 		061E35F71A388E9BDDDBA209E87F908E /* Surge.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Surge.xcconfig; sourceTree = "<group>"; };
 		1280CA291A772CCDC3FE89D100F90A80 /* Power.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Power.swift; path = Source/Power.swift; sourceTree = "<group>"; };
-		2421CB69918ED09DAC74D21D8F0F8990 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SwiftAI/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		1A157C6FB611E6E96BA9AAF9DB02D855 /* SwiftAI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftAI.xcconfig; sourceTree = "<group>"; };
 		2999E4B7F6D6A3BBF83A4D3EDC5CF072 /* Pods-SwiftAI_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftAI_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		3A3886EC0CD7855B02BBA173773964D4 /* Pods-SwiftAI_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftAI_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		432AF12691CF9E96601086E17A08F37B /* SwiftAI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftAI-umbrella.h"; sourceTree = "<group>"; };
 		44D6CA4CC50A65C67946935A962D8A3C /* Surge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Surge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		53CA5A2F7DBBD4EE360DDE3B888D6F1C /* Pods_SwiftAI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftAI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		564D61A8D004A30E942202F69D654E6E /* SwiftAI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftAI-prefix.pch"; sourceTree = "<group>"; };
 		5AC10AB861FB7C6F6888FA5603E85548 /* Surge-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Surge-prefix.pch"; sourceTree = "<group>"; };
 		622AA7FAC6BDA3378F5D76150D5EBA1D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		676688ADF61A1CCDB62A3F8EF509AD1D /* Hyperbolic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Hyperbolic.swift; path = Source/Hyperbolic.swift; sourceTree = "<group>"; };
 		67B9E4BBEBECE75ED65D1EBFB511AC01 /* Pods-SwiftAI_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftAI_Tests-umbrella.h"; sourceTree = "<group>"; };
-		67DDEB0B28EFC752C61575ABAD3D2034 /* SwiftAI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftAI.modulemap; sourceTree = "<group>"; };
 		68187DB6060C4AF9CF489BE0EF4C94B1 /* Pods-SwiftAI_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftAI_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6D510DBA529ADBEB7632FD354221DDAD /* SwiftAI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftAI-dummy.m"; sourceTree = "<group>"; };
-		6EA463E42470D8FF93A77C573109913D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		6F36A80CBAF00B25247A5DF96EB71B76 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		707D67222C9BA12844AD8D9C6CF6752D /* Matrix.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Matrix.swift; path = Source/Matrix.swift; sourceTree = "<group>"; };
 		71D1CCD4391853729591B08C4BC1633A /* Pods-SwiftAI_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftAI_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		77C1D6C8A4E88A7C1ECFFA5E148D31E4 /* Pods-SwiftAI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftAI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7A9E306BDAFCFEE6C9EFE9546095C9EE /* SwiftAI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftAI-Info.plist"; sourceTree = "<group>"; };
+		7F418157E9D2AB80ADFC4EF995D9FDFE /* SwiftAI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftAI-dummy.m"; sourceTree = "<group>"; };
 		80839DD202DE21432EA25B9866046BBE /* Surge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Surge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84224C6822CF29CA24C516C1F5C35A78 /* Pods-SwiftAI_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftAI_Example-umbrella.h"; sourceTree = "<group>"; };
-		8A10577A21AF6807913F59CB9749CC52 /* SwiftAI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftAI-prefix.pch"; sourceTree = "<group>"; };
-		8B3C160B226EC3210022EFF6 /* Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Base.swift; path = SwiftAI/Classes/Base.swift; sourceTree = "<group>"; };
 		8B7CEC3C68DB6B06FAD4769E1817BF82 /* Pods-SwiftAI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftAI_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8BA3DF38226EEDCE005057AF /* KNN.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = KNN.swift; path = SwiftAI/Classes/KNN.swift; sourceTree = "<group>"; };
+		8BA3DF3C226EF951005057AF /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = SwiftAI/Classes/Notifications.swift; sourceTree = "<group>"; };
+		8BA3DF3E226EFD48005057AF /* Distance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Distance.swift; sourceTree = "<group>"; };
 		93EA6C22F91482A488182265CFE4FD24 /* Trigonometric.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Trigonometric.swift; path = Source/Trigonometric.swift; sourceTree = "<group>"; };
 		993E178AF721237A57F8BF9135F873B6 /* Exponential.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Exponential.swift; path = Source/Exponential.swift; sourceTree = "<group>"; };
+		9988C255CA9F5B513592965D7850FEF3 /* SwiftAI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SwiftAI.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D894271FA8C39391B5563801845F0EC /* Surge-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Surge-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D9C7B23A20AA7BC44B9BEAE109ED83B /* Surge.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Surge.modulemap; sourceTree = "<group>"; };
@@ -102,21 +109,18 @@
 		AA9EB3597758FC458F59DA54D26117E0 /* Auxiliary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Auxiliary.swift; path = Source/Auxiliary.swift; sourceTree = "<group>"; };
 		AE99D747AA1DF89300EB02B0C74AD2C5 /* Pods-SwiftAI_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftAI_Tests-dummy.m"; sourceTree = "<group>"; };
 		B1FD7579E85C9E45E5BA67C8A9E03E21 /* Pods-SwiftAI_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftAI_Example-frameworks.sh"; sourceTree = "<group>"; };
-		B2907EA401C2B222226850475638B29B /* SwiftAI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftAI-umbrella.h"; sourceTree = "<group>"; };
-		B5E4D2003876D13E54CC050F7098E526 /* SwiftAI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SwiftAI.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B89B5D1E2D59A60A585D5160EEF13D28 /* Surge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Surge-dummy.m"; sourceTree = "<group>"; };
-		BC1D7853C67D155D58B4000692DDF980 /* SwiftAI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftAI.xcconfig; sourceTree = "<group>"; };
 		CA19C99701B5B79477A862B7EDE3FAA4 /* Pods-SwiftAI_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftAI_Example-dummy.m"; sourceTree = "<group>"; };
-		CE0EE2B5E725B6F3744F2A507687C1C2 /* SwiftAI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftAI-Info.plist"; sourceTree = "<group>"; };
+		CA5505960141EEB782EF67F4E50F6332 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		CE8100F7BFBD5FD3418DAF7CCA63B38C /* Pods-SwiftAI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftAI_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CF083EF9EA0C1407A85FBBA93F855131 /* Pods-SwiftAI_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftAI_Tests.modulemap"; sourceTree = "<group>"; };
 		D2D5DAEDED899A7ECFEC59929E1E75F8 /* Surge-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Surge-Info.plist"; sourceTree = "<group>"; };
 		DD7313C2BFAC9810DE7449D4A693DC83 /* Convolution.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Convolution.swift; path = Source/Convolution.swift; sourceTree = "<group>"; };
 		E1A1341037E7D879D9A6A997B6B9EA0A /* FFT.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FFT.swift; path = Source/FFT.swift; sourceTree = "<group>"; };
+		E3CD67F6988C3A25FAAD9F8E4EFCBBB1 /* Base.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Base.swift; path = SwiftAI/Classes/Base.swift; sourceTree = "<group>"; };
 		F17F13C66572C926AD61B3A22B13C4FC /* Pods-SwiftAI_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftAI_Example-Info.plist"; sourceTree = "<group>"; };
 		F1EAD5E970168849C018EB7EB1EF04CA /* Pods-SwiftAI_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftAI_Example.modulemap"; sourceTree = "<group>"; };
 		F22BFA473AAC6B1A6934F9AFD9D3B781 /* SwiftAI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftAI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FCE37935A4D7DAACBA9E62EA4EE01A4E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,14 +161,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0CFCFE43C6FE6F97E549E0BA93C5FC87 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				9F11ECD2ACAD5A102FE113B140870EC2 /* SwiftAI */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		1135FD94E5F33D0BBFC7167789DD3C5E /* Surge */ = {
 			isa = PBXGroup;
 			children = (
@@ -182,6 +178,20 @@
 			path = Surge;
 			sourceTree = "<group>";
 		};
+		1E2EB8F7BA45BD8AF3EB4637FCC5DDFA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				03249FFF6B93343C47C25B0117430BA6 /* SwiftAI.modulemap */,
+				1A157C6FB611E6E96BA9AAF9DB02D855 /* SwiftAI.xcconfig */,
+				7F418157E9D2AB80ADFC4EF995D9FDFE /* SwiftAI-dummy.m */,
+				7A9E306BDAFCFEE6C9EFE9546095C9EE /* SwiftAI-Info.plist */,
+				564D61A8D004A30E942202F69D654E6E /* SwiftAI-prefix.pch */,
+				432AF12691CF9E96601086E17A08F37B /* SwiftAI-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SwiftAI";
+			sourceTree = "<group>";
+		};
 		1FEBC7CF860CCAFF29FE0F9179FE8587 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -193,14 +203,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		26EA6C2DDFBFA82623565F18ABA4F794 /* Pod */ = {
+		40DD26DFBB65882627E8D46B7C5E7E21 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6EA463E42470D8FF93A77C573109913D /* LICENSE */,
-				FCE37935A4D7DAACBA9E62EA4EE01A4E /* README.md */,
-				B5E4D2003876D13E54CC050F7098E526 /* SwiftAI.podspec */,
+				66EE2B014DB4C5B6C8D666B3D87105A6 /* SwiftAI */,
 			);
-			name = Pod;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		59D67665EEBD5EFBCB88188026F23D1D /* iOS */ = {
@@ -229,6 +237,20 @@
 			path = "Target Support Files/Pods-SwiftAI_Example";
 			sourceTree = "<group>";
 		};
+		66EE2B014DB4C5B6C8D666B3D87105A6 /* SwiftAI */ = {
+			isa = PBXGroup;
+			children = (
+				E3CD67F6988C3A25FAAD9F8E4EFCBBB1 /* Base.swift */,
+				8BA3DF3C226EF951005057AF /* Notifications.swift */,
+				8BA3DF38226EEDCE005057AF /* KNN.swift */,
+				D4B7A2A31CCC20F3DF5F039AB4C6976A /* Pod */,
+				1E2EB8F7BA45BD8AF3EB4637FCC5DDFA /* Support Files */,
+				8BA3DF3E226EFD48005057AF /* Distance.swift */,
+			);
+			name = SwiftAI;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		8E201CE9BF19D41E4C2790DB7C4128F1 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -243,38 +265,12 @@
 			path = "../Target Support Files/Surge";
 			sourceTree = "<group>";
 		};
-		9931101944DBBE9C4F72C4C48F7C995F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				67DDEB0B28EFC752C61575ABAD3D2034 /* SwiftAI.modulemap */,
-				BC1D7853C67D155D58B4000692DDF980 /* SwiftAI.xcconfig */,
-				6D510DBA529ADBEB7632FD354221DDAD /* SwiftAI-dummy.m */,
-				CE0EE2B5E725B6F3744F2A507687C1C2 /* SwiftAI-Info.plist */,
-				8A10577A21AF6807913F59CB9749CC52 /* SwiftAI-prefix.pch */,
-				B2907EA401C2B222226850475638B29B /* SwiftAI-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SwiftAI";
-			sourceTree = "<group>";
-		};
 		9D962C8896C9BE4DD0D4C5F3D2786118 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				1135FD94E5F33D0BBFC7167789DD3C5E /* Surge */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		9F11ECD2ACAD5A102FE113B140870EC2 /* SwiftAI */ = {
-			isa = PBXGroup;
-			children = (
-				8B3C160B226EC3210022EFF6 /* Base.swift */,
-				2421CB69918ED09DAC74D21D8F0F8990 /* ReplaceMe.swift */,
-				26EA6C2DDFBFA82623565F18ABA4F794 /* Pod */,
-				9931101944DBBE9C4F72C4C48F7C995F /* Support Files */,
-			);
-			name = SwiftAI;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		B8763064D26A0AA4FA9422AC1A54E83D /* Targets Support Files */ = {
@@ -290,7 +286,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				0CFCFE43C6FE6F97E549E0BA93C5FC87 /* Development Pods */,
+				40DD26DFBB65882627E8D46B7C5E7E21 /* Development Pods */,
 				D414335AF56AE1D02D3305C43E02E744 /* Frameworks */,
 				9D962C8896C9BE4DD0D4C5F3D2786118 /* Pods */,
 				1FEBC7CF860CCAFF29FE0F9179FE8587 /* Products */,
@@ -305,6 +301,16 @@
 				59D67665EEBD5EFBCB88188026F23D1D /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4B7A2A31CCC20F3DF5F039AB4C6976A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				CA5505960141EEB782EF67F4E50F6332 /* LICENSE */,
+				6F36A80CBAF00B25247A5DF96EB71B76 /* README.md */,
+				9988C255CA9F5B513592965D7850FEF3 /* SwiftAI.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		DDE851A7F0FAF7439529E68EDDD17E9D /* Pods-SwiftAI_Tests */ = {
@@ -423,7 +429,7 @@
 			buildConfigurationList = FE94B717BEC90A37913590EE6032BAB5 /* Build configuration list for PBXNativeTarget "SwiftAI" */;
 			buildPhases = (
 				8D9AF9DBA0247B6C3999EB5622CDD459 /* Headers */,
-				1446465A7C5522F88C5E5D1B51835237 /* Sources */,
+				D5E4664F3017274A8CB9595592F897AF /* Sources */,
 				2F91CD201183D91CF38FA551B670A97F /* Frameworks */,
 				39E358767A2BBC7ECA10B25A70789F83 /* Resources */,
 			);
@@ -445,14 +451,19 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					06651F4BBD94751907D27958AA59B449 = {
+						LastSwiftMigration = 1020;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = 1FEBC7CF860CCAFF29FE0F9179FE8587 /* Products */;
@@ -499,16 +510,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1446465A7C5522F88C5E5D1B51835237 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8B3C160C226EC3210022EFF6 /* Base.swift in Sources */,
-				9892C2068F0D6F500F8AC86F56F13D2C /* ReplaceMe.swift in Sources */,
-				0D8EAAF969A69BC390EBEA570382FF86 /* SwiftAI-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		42E861B67E4A433DBC6F6DAF371B50FE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -531,6 +532,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				25D4152F693BC607F4ED7FB6AF4C6311 /* Pods-SwiftAI_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E4664F3017274A8CB9595592F897AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BA3DF3D226EF951005057AF /* Notifications.swift in Sources */,
+				877848B986F549F56DA5A5267930E3A7 /* Base.swift in Sources */,
+				B7D270AD1AA32303855F8909775E1601 /* SwiftAI-dummy.m in Sources */,
+				8BA3DF3A226EEE41005057AF /* KNN.swift in Sources */,
+				8BA3DF40226EFFE9005057AF /* Distance.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -675,6 +688,7 @@
 			baseConfigurationReference = 8B7CEC3C68DB6B06FAD4769E1817BF82 /* Pods-SwiftAI_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -697,6 +711,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -708,6 +724,7 @@
 			baseConfigurationReference = CE8100F7BFBD5FD3418DAF7CCA63B38C /* Pods-SwiftAI_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -730,6 +747,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -739,7 +757,7 @@
 		};
 		8212E9E1D77108FF3AA782EBD625AB77 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BC1D7853C67D155D58B4000692DDF980 /* SwiftAI.xcconfig */;
+			baseConfigurationReference = 1A157C6FB611E6E96BA9AAF9DB02D855 /* SwiftAI.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -925,7 +943,7 @@
 		};
 		EC25BA0A7F5BA48AACA0D50EE9FFF35D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BC1D7853C67D155D58B4000692DDF980 /* SwiftAI.xcconfig */;
+			baseConfigurationReference = 1A157C6FB611E6E96BA9AAF9DB02D855 /* SwiftAI.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

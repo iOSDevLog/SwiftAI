@@ -2,7 +2,7 @@
   "name": "SwiftAI",
   "version": "0.1.0",
   "summary": "Machine Learning SwiftAI.",
-  "description": "Machine Learning SwiftAI.",
+  "description": "Machine Learning in Swift.\nscikit-learn like api.",
   "homepage": "https://github.com/iOSDevLog/SwiftAI",
   "license": {
     "type": "MIT",

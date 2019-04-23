@@ -9,30 +9,30 @@
 import XCTest
 @testable import SwiftAI
 
-class KNNTests: XCTestCase {
-
-    class TestEstimator: BaseEstimator {
-        @objc var count: Int
-        @objc var desc: String
-
-        override init() {
-            self.count = 0
-            self.desc = "Hello AIDevLog"
-
-            super.init()
-        }
-
-        init(count: Int, desc: String) {
-            self.count = count
-            self.desc = desc
-
-            super.init()
-        }
-
-        required init(from decoder: Decoder) throws {
-            fatalError("init(from:) has not been implemented")
-        }
+class TestEstimator: BaseEstimator {
+    @objc var count: Int
+    @objc var desc: String
+    
+    override init() {
+        self.count = 0
+        self.desc = "Hello AIDevLog"
+        
+        super.init()
     }
+    
+    init(count: Int, desc: String) {
+        self.count = count
+        self.desc = desc
+        
+        super.init()
+    }
+    
+    required init(from decoder: Decoder) throws {
+        fatalError("init(from:) has not been implemented")
+    }
+}
+
+class BaseTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
